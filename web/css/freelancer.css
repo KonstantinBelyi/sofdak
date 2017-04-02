@@ -440,18 +440,14 @@ footer .footer-below {
 #contacts{
     color: white;
     width: 350px;
-}
-
-@media(max-width:992px){
-    .container{
-        padding-right: 155px;
-        padding-left: 150px;
-    }
+    padding-top: 10px;
+    margin-bottom: inherit;
 }
 
 @media(max-width:768px){
-    .container{
-        padding-right: 15px;
-        padding-left: 15px;
+    #contacts{
+        font-size: 10px;
+        padding-top: 15px;
+        width: 270px;
     }
 }
