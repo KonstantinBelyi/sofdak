@@ -10,7 +10,7 @@ LtIeAppAsset::register($this);
 
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
-<html lang="<?= Yii::$app->language ?>">
+<html lang="<?= Yii::$app->language ?>" xmlns="http://www.w3.org/1999/html">
 
 <head>
 
@@ -35,7 +35,12 @@ LtIeAppAsset::register($this);
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+            <a class="navbar-brand" href="#page-top">Sof-dak</a>
+
+            <p id="contacts">
+                E-mail: test@test.ru<br>
+                Телефон: +38 095-334-23-12
+            </p>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -45,13 +50,16 @@ LtIeAppAsset::register($this);
                     <a href="#page-top"></a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#portfolio">Portfolio</a>
+                    <a href="#portfolio">Препараты</a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#about">About</a>
+                    <a href="#portfolio">Что нужно знать? </a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#contact">Contact</a>
+                    <a href="#about">О нас</a>
+                </li>
+                <li class="page-scroll">
+                    <a href="#contact">Контакты</a>
                 </li>
             </ul>
         </div>

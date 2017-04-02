@@ -3,11 +3,11 @@ body {
 }
 
 p {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 p.small {
-    font-size: 16px;
+    font-size: 10px;
 }
 
 a,
@@ -141,9 +141,9 @@ header .intro-text .skills {
 }
 
 .navbar {
-    text-transform: uppercase;
+    /*text-transform: full-size-kana;*/
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    /*font-weight: 700;*/
 }
 
 .navbar a:focus {
@@ -300,7 +300,7 @@ section.success {
     transition: top .3s ease,opacity .3s ease;
 }
 
-.floating-label-form-group::not(:first-child) {
+.floating-label-form-group:not(:first-child) {
     padding-left: 14px;
     border-left: 1px solid #eee;
 }
@@ -435,4 +435,23 @@ footer .footer-below {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+/*************************************************************/
+#contacts{
+    color: white;
+    width: 350px;
+}
+
+@media(max-width:992px){
+    .container{
+        padding-right: 155px;
+        padding-left: 150px;
+    }
+}
+
+@media(max-width:768px){
+    .container{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
 }
