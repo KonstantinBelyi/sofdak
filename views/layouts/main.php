@@ -53,7 +53,7 @@ LtIeAppAsset::register($this);
                     <a href="#portfolio">Препараты</a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#portfolio">Что нужно знать? </a>
+                    <a href="#hepatitis">Что нужно знать? </a>
                 </li>
                 <li class="page-scroll">
                     <a href="#about">О нас</a>
@@ -70,15 +70,18 @@ LtIeAppAsset::register($this);
 
 <header>
     <div class="container">
+
         <div class="row">
-            <div class="col-lg-12">
-                <img class="img-responsive" src="img/profile.png" alt="">
-                <div class="intro-text">
-                    <span class="name">Start Bootstrap</span>
-                    <hr class="star-light">
-                    <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
-                </div>
-            </div>
+
+            <div class="col-xs-12">
+            <img class="img-responsive" src="img/1.jpg" alt="">
+<!--                <img class="img-responsive" src="img/profile.png" alt="">-->
+<!--                <div class="intro-text">-->
+<!--                    <span class="name">Start Bootstrap</span>-->
+<!--                    <hr class="star-light">-->
+<!--                    <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>-->
+<!--                </div>-->
+<!--            </div>-->
         </div>
     </div>
 </header>
@@ -87,8 +90,8 @@ LtIeAppAsset::register($this);
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>Portfolio</h2>
-                <hr class="star-primary">
+                <h2>Препараты</h2>
+<!--                <hr class="star-primary">-->
             </div>
         </div>
         <div class="row">
@@ -99,7 +102,7 @@ LtIeAppAsset::register($this);
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="img/portfolio/cabin.png" class="img-responsive" alt="" />
+                    <img src="img/portfolio/prduct1.jpg" class="img-responsive" alt="" />
                 </a>
             </div>
             <div class="col-sm-4 portfolio-item">
@@ -109,7 +112,7 @@ LtIeAppAsset::register($this);
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="img/portfolio/cake.png" class="img-responsive" alt="" />
+                    <img src="img/portfolio/prduct2.jpg" class="img-responsive" alt="" />
                 </a>
             </div>
             <div class="col-sm-4 portfolio-item">
@@ -119,38 +122,58 @@ LtIeAppAsset::register($this);
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="img/portfolio/circus.png" class="img-responsive" alt="" />
+                    <img src="img/portfolio/prduct3.jpg" class="img-responsive" alt="" />
                 </a>
             </div>
-            <div class="col-sm-4 portfolio-item">
-                <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="img/portfolio/game.png" class="img-responsive" alt="" />
-                </a>
+        </div>
+    </div>
+</section>
+
+<section id="hepatitis">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Что нужно знать?</h2>
+                <!--                <hr class="star-light">-->
             </div>
-            <div class="col-sm-4 portfolio-item">
-                <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="img/portfolio/safe.png" class="img-responsive" alt="" />
-                </a>
-            </div>
-            <div class="col-sm-4 portfolio-item">
-                <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="img/portfolio/submarine.png" class="img-responsive" alt="" />
-                </a>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <p>
+                    Гепатит С – «ласковый убийца» кто он?
+
+                    Гепатит C – это инфекционное заболевание печени, вызываемое вирусом гепатита C, наблюдается чаще у молодых людей. Однако «возраст» инфекции постепенно растет.
+
+                    Более 170 млн. населения Земли заражено гепатитом С. Ежегодно заражается порядка 4 млн. человек. Заболевание распространено практически во всех странах, но неравномерно.
+
+                    Как передается вирус гепатита С?
+                    Вирус гепатита С передается через кровь — это основной механизм инфицирования.
+
+                    Чаще всего заражение вирусом гепатита C происходит при введении достаточного количества инфицированной крови при инъекциях общей иглой.
+
+                    Возможно заражение при выполнении пирсинга или татуировок инструментами, инфицированными кровью больного, так же при совместном использовании маникюрных принадлежностей, бритв, и даже зубных щеток (попавшая на них инфицированная кровь может стать причиной заражения).
+
+                    Так же вероятно заражение гепатитом С при введении препаратов крови, при операциях или травмах, введении медицинских препаратов и массовой вакцинации, в стоматологических кабинетах.
+
+                    Кто попадает в группу риска заражения гепатитом С?
+                    Эпидемиологи выделяют три степени повышенного риска.
+
+                    Самый высокий риск заражения имеют:
+
+                    Лица, употребляющие инъекционные наркотики
+                    Лица, которым переливали факторы свертывания крови до 1987г.
+                    Промежуточный (средне-повышенный) риск заражения гепатитом С имеют:
+
+                    Пациенты, находящиеся на гемодиализе (аппарат «искусственная почка»)
+                    Лица, которым были пересажены органы (трансплантация) или которым переливали кровь до 1992 г., и всем, кому была перелита кровь от донора, впоследствии оказавшегося с положительным результатом анализов на гепатит С
+                    Лица с неустановленными заболеваниями (проблемами) печени
+                    Младенцы, родившиеся от инфицированных матерей
+                    К следующей категории (слабое повышение риска) относятся:
+
+                    Медицинские работники и работники санитарно-эпидемиологической службы
+                    Лица, имеющие половые контакты со многими партнерами
+                    Лица, имеющие половые контакты с одним инфицированным партнером
+                </p>
             </div>
         </div>
     </div>
@@ -160,21 +183,21 @@ LtIeAppAsset::register($this);
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>About</h2>
-                <hr class="star-light">
+                <h2>О нас</h2>
+<!--                <hr class="star-light">-->
             </div>
         </div>
         <div class="row">
             <div class="col-lg-4 col-lg-offset-2">
-                <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                <p>
+                    Мы оказываем помощь в приобретении эффективных препаратов для лечения гепатита С из Египта по доступным ценам.
+                    В Египте производят аналоги (дженерики) брендовых препаратов для лечения гепатита С, которые значительно дешевле, а состав и качество препаратов не уступают мировым аналогам.
+                </p>
             </div>
             <div class="col-lg-4">
-                <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-            </div>
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <a href="#" class="btn btn-lg btn-outline">
-                    <i class="fa fa-download"></i> Download Theme
-                </a>
+                <p>
+                    Доступность цен обусловлена тем, что в Египте очень много больных гепатитом С, поэтому правительство создало выгодные условия для производителей www.marcyrl.com и вы платите за само лекарство, а не за дорогостоящий патент и бренд.
+                </p>
             </div>
         </div>
     </div>
@@ -184,8 +207,8 @@ LtIeAppAsset::register($this);
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>Contact Me</h2>
-                <hr class="star-primary">
+                <h2>Контакты</h2>
+<!--                <hr class="star-primary">-->
             </div>
         </div>
         <div class="row">
@@ -193,26 +216,32 @@ LtIeAppAsset::register($this);
                 <form role="form">
                     <div class="row">
                         <div class="form-group col-xs-12 floating-label-form-group">
-                            <label for="name">Name</label>
-                            <input class="form-control" type="text" name="name" placeholder="Name">
+                            <label for="name">Имя</label>
+                            <input class="form-control" type="text" name="name" placeholder="Ваше имя">
                         </div>
                     </div>
                     <div class="row">
                         <div class="form-group col-xs-12 floating-label-form-group">
-                            <label for="email">Email Address</label>
-                            <input class="form-control" type="email" name="email" placeholder="Email Address">
+                            <label for="email">E-mail</label>
+                            <input class="form-control" type="email" name="email" placeholder="Ваш E-mail">
                         </div>
                     </div>
                     <div class="row">
                         <div class="form-group col-xs-12 floating-label-form-group">
-                            <label for="message">Message</label>
-                            <textarea placeholder="Message" class="form-control" rows="5"></textarea>
+                            <label for="tel">Телефон</label>
+                            <input class="form-control" type="text" name="tel" placeholder="Ваш телефон">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-xs-12 floating-label-form-group">
+                            <label for="message">Сообщение</label>
+                            <textarea placeholder="Введите сообщение" class="form-control" rows="5"></textarea>
                         </div>
                     </div>
                     <br>
                     <div class="row">
                         <div class="form-group col-xs-12">
-                            <button type="submit" class="btn btn-lg btn-success">Send</button>
+                            <button type="submit" class="btn btn-lg btn-success">Отправить</button>
                         </div>
                     </div>
                 </form>
@@ -225,29 +254,27 @@ LtIeAppAsset::register($this);
     <div class="footer-above">
         <div class="container">
             <div class="row">
-                <div class="footer-col col-md-4">
-                    <h3>Location</h3>
-                    <p>3481 Melrose Place
-                        <br>Beverly Hills, CA 90210</p>
-                </div>
-                <div class="footer-col col-md-4">
-                    <h3>Around the Web</h3>
+<!--                <div class="footer-col col-md-4">-->
+<!--                    <h3>Location</h3>-->
+<!--                    <p>3481 Melrose Place-->
+<!--                        <br>Beverly Hills, CA 90210</p>-->
+<!--                </div>-->
+                <div class="footer-col col-md-12">
+<!--                    <h3>Around the Web</h3>-->
                     <ul class="list-inline">
                         <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
                         </li>
-                        <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                        <li><a href="https://vk.com/club139203360" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-vk"></i></a>
                         </li>
+<!--                        <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>-->
+<!--                        </li>-->
                         <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
                         </li>
-                        <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                        </li>
-                        <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
-                        </li>
+<!--                        <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>-->
+<!--                        </li>-->
+<!--                        <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>-->
+<!--                        </li>-->
                     </ul>
-                </div>
-                <div class="footer-col col-md-4">
-                    <h3>About Freelance</h3>
-                    <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
                 </div>
             </div>
         </div>
@@ -263,12 +290,6 @@ LtIeAppAsset::register($this);
     </div>
 </footer>
 
-<div class="scroll-top page-scroll visible-xs visble-sm">
-    <a class="btn btn-primary" href="#page-top">
-        <i class="fa fa-chevron-up"></i>
-    </a>
-</div>
-
 <!-- Portfolio Modals -->
 <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
@@ -282,18 +303,14 @@ LtIeAppAsset::register($this);
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>Project Title</h2>
+                        <h2>Продукт</h2>
                         <hr class="star-primary">
-                        <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                        <ul class="list-inline item-details">
-                            <li>Client: <strong><a href="http://startbootstrap.com">Start Bootstrap</a></strong>
-                            </li>
-                            <li>Date: <strong><a href="http://startbootstrap.com">April 2014</a></strong>
-                            </li>
-                            <li>Service: <strong><a href="http://startbootstrap.com">Web Development</a></strong>
-                            </li>
-                        </ul>
+                        <img src="img/portfolio/prduct1.jpg" class="img-responsive img-centered" alt="">
+                        <p>
+                            Виропак (MPI Viropack) (Софосбувир 400 мг) 28 табл. - препарат для лечения гепатита С. Активное вещество - софосбувир, 400 мг.
+
+                            Лечение Виропак (MPI Viropack) применяется в комплексе безинтерфероновой терапии практически во всех ведущих клиниках по всему миру, так как этот препарат, прошедший массу клинических и лабораторных исследований показал высокие результаты. Эффективность этого препарата составляет не менее 94%. Наивысших результатов медики добились при использовании в связке Софосбувир + Даклатасвир (торговые названия даклатасвира в Египте - Дакланорк / Даклавироцирл ). Эти препараты на сегодняшний день самые эффективные для лечения гепатита С . Практически стопроцентного показателя в ходе клинических испытаний удалось достичь даже у пациентов с патологиями печени, ко-инфекциями, и у пациентов с третьим, как считалось ранее, самым сложным генотипом вируса.
+                        </p>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                     </div>
                 </div>
@@ -313,18 +330,14 @@ LtIeAppAsset::register($this);
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>Project Title</h2>
+                        <h2>Продукт</h2>
                         <hr class="star-primary">
-                        <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
-                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                        <ul class="list-inline item-details">
-                            <li>Client: <strong><a href="http://startbootstrap.com">Start Bootstrap</a></strong>
-                            </li>
-                            <li>Date: <strong><a href="http://startbootstrap.com">April 2014</a></strong>
-                            </li>
-                            <li>Service: <strong><a href="http://startbootstrap.com">Web Development</a></strong>
-                            </li>
-                        </ul>
+                        <img src="img/portfolio/prduct2.jpg" class="img-responsive img-centered" alt="">
+                        <p>
+                            Виропак (MPI Viropack) (Софосбувир 400 мг) 28 табл. - препарат для лечения гепатита С. Активное вещество - софосбувир, 400 мг.
+
+                            Лечение Виропак (MPI Viropack) применяется в комплексе безинтерфероновой терапии практически во всех ведущих клиниках по всему миру, так как этот препарат, прошедший массу клинических и лабораторных исследований показал высокие результаты. Эффективность этого препарата составляет не менее 94%. Наивысших результатов медики добились при использовании в связке Софосбувир + Даклатасвир (торговые названия даклатасвира в Египте - Дакланорк / Даклавироцирл ). Эти препараты на сегодняшний день самые эффективные для лечения гепатита С . Практически стопроцентного показателя в ходе клинических испытаний удалось достичь даже у пациентов с патологиями печени, ко-инфекциями, и у пациентов с третьим, как считалось ранее, самым сложным генотипом вируса.
+                        </p>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                     </div>
                 </div>
@@ -344,111 +357,18 @@ LtIeAppAsset::register($this);
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>Project Title</h2>
+                        <h2>Продукт</h2>
                         <hr class="star-primary">
-                        <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
-                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                        <ul class="list-inline item-details">
-                            <li>Client: <strong><a href="http://startbootstrap.com">Start Bootstrap</a></strong>
-                            </li>
-                            <li>Date: <strong><a href="http://startbootstrap.com">April 2014</a></strong>
-                            </li>
-                            <li>Service: <strong><a href="http://startbootstrap.com">Web Development</a></strong>
-                            </li>
-                        </ul>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h2>Project Title</h2>
-                        <hr class="star-primary">
-                        <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
-                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                        <ul class="list-inline item-details">
-                            <li>Client: <strong><a href="http://startbootstrap.com">Start Bootstrap</a></strong>
-                            </li>
-                            <li>Date: <strong><a href="http://startbootstrap.com">April 2014</a></strong>
-                            </li>
-                            <li>Service: <strong><a href="http://startbootstrap.com">Web Development</a></strong>
-                            </li>
-                        </ul>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h2>Project Title</h2>
-                        <hr class="star-primary">
-                        <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
-                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                        <ul class="list-inline item-details">
-                            <li>Client: <strong><a href="http://startbootstrap.com">Start Bootstrap</a></strong>
-                            </li>
-                            <li>Date: <strong><a href="http://startbootstrap.com">April 2014</a></strong>
-                            </li>
-                            <li>Service: <strong><a href="http://startbootstrap.com">Web Development</a></strong>
-                            </li>
-                        </ul>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h2>Project Title</h2>
-                        <hr class="star-primary">
-                        <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
-                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                        <ul class="list-inline item-details">
-                            <li>Client: <strong><a href="http://startbootstrap.com">Start Bootstrap</a></strong>
-                            </li>
-                            <li>Date: <strong><a href="http://startbootstrap.com">April 2014</a></strong>
-                            </li>
-                            <li>Service: <strong><a href="http://startbootstrap.com">Web Development</a></strong>
-                            </li>
-                        </ul>
+                        <img src="img/portfolio/prduct3.jpg" class="img-responsive img-centered" alt="">
+                        <p>
+                            Виропак Плюс / Viropack Plus (Египетский дженерик Харвони / Harvoni) –
+                            препарат для лечения хронической формы гепатита С генотипа 1.
+                            Не требует комбинации с рибавирином и интерфероном.
+                            Он является третьим одобренным лекарством от гепатита С подобного действия.
+                            Виропак Плюс / Viropack Plus (Египетский Харвони Harvoni)
+                            значительно упрощает схему лечения болезни и дарит больным
+                            возможность выбирать подходящий курс терапии.
+                        </p>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                     </div>
                 </div>

@@ -76,7 +76,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: #fff;
 }
 
 header .container {
@@ -104,7 +104,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding: 200px 0 100px;
+        padding: 150px 0 50px;
     }
 
     header .intro-text .name {
@@ -170,11 +170,12 @@ section {
 section h2 {
     margin: 0;
     font-size: 3em;
+    margin-bottom: 25px;
 }
 
 section.success {
-    color: #fff;
-    background: #18bc9c;
+    color: #2c3e50;
+    background: #fff;
 }
 
 @media(max-width:767px) {
@@ -204,7 +205,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    /*background: rgba(24,188,156,.9);*/
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -222,7 +223,7 @@ section.success {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #fff;
+    color: #18bc9c;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
@@ -450,4 +451,9 @@ footer .footer-below {
         padding-top: 15px;
         width: 270px;
     }
+}
+
+#hepatitis{
+    color: #fff;
+    background: #2c3e50;
 }
