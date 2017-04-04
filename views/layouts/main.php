@@ -73,8 +73,21 @@ LtIeAppAsset::register($this);
 
         <div class="row">
 
-            <div class="col-xs-12">
-            <img class="img-responsive" src="img/1.jpg" alt="">
+            <div class="col-sm-6">
+                <h1>Sof-dak</h1>
+                <h2>ГЕПАТИТ НЕ ПРИГОВОР</h2>
+                <p>
+                    Мы предлагаем лечение гепатита современными препаратами, эффективность которых доказана позитивным результатом тысяч пациентов
+                </p>
+<!--                <button type="button" class="btn btn-lg btn-success page-scroll" href="#contact" >Заказать</button>-->
+                <label class="page-scroll">
+                    <a class="btn btn-lg btn-success" href="#contact" >Заказать</a>
+                </label>
+
+            </div>
+
+            <div class="col-sm-6">
+                <img class="img-responsive" src="img/1(1000x848).jpg" alt="">
 <!--                <img class="img-responsive" src="img/profile.png" alt="">-->
 <!--                <div class="intro-text">-->
 <!--                    <span class="name">Start Bootstrap</span>-->
@@ -82,7 +95,7 @@ LtIeAppAsset::register($this);
 <!--                    <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>-->
 <!--                </div>-->
 <!--            </div>-->
-        </div>
+            </div>
     </div>
 </header>
 
