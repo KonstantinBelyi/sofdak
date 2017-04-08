@@ -53,7 +53,7 @@ LtIeAppAsset::register($this);
                     <a href="#page-top"></a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#portfolio">Препараты</a>
+                    <a href="#product">Препараты</a>
                 </li>
                 <li class="page-scroll">
                     <a href="#hepatitis">Что нужно знать? </a>

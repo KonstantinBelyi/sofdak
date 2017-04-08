@@ -4,7 +4,6 @@
  * @var $product app\controllers\SiteController
  */
 
-$this->title = 'Sof-dak';
 ?>
 
 <header>
@@ -18,7 +17,7 @@ $this->title = 'Sof-dak';
                 <p>
                     Мы предлагаем лечение гепатита современными препаратами, эффективность которых доказана позитивным результатом тысяч пациентов
                 </p>
-                <!--                <button type="button" class="btn btn-lg btn-success page-scroll" href="#contact" >Заказать</button>-->
+
                 <label class="page-scroll">
                     <a class="btn btn-lg btn-success" href="#contact" >Заказать</a>
                 </label>
@@ -27,23 +26,15 @@ $this->title = 'Sof-dak';
 
             <div class="col-sm-6">
                 <img class="img-responsive" src="img/1(1000x848).jpg" alt="">
-                <!--                <img class="img-responsive" src="img/profile.png" alt="">-->
-                <!--                <div class="intro-text">-->
-                <!--                    <span class="name">Start Bootstrap</span>-->
-                <!--                    <hr class="star-light">-->
-                <!--                    <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>-->
-                <!--                </div>-->
-                <!--            </div>-->
             </div>
         </div>
 </header>
 
-<section id="portfolio">
+<section id="product">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2>Препараты</h2>
-                <!--                <hr class="star-primary">-->
             </div>
         </div>
         <div class="row">
@@ -52,8 +43,8 @@ $this->title = 'Sof-dak';
                 foreach ($product as $item):
             ?>
 
-            <div class="col-sm-4 portfolio-item">
-                <a href="<?= '#modal' . $item->id ?>" class="portfolio-link" data-toggle="modal">
+            <div class="col-sm-4 product-item">
+                <a href="<?= '#modal' . $item->id ?>" class="product-link" data-toggle="modal">
                     <div class="caption">
                         <div class="caption-content">
                             <i class="fa fa-search-plus fa-3x"></i>
@@ -252,15 +243,20 @@ $this->title = 'Sof-dak';
                     <div class="modal-body">
 
                         <h2><?= $item->name ?></h2>
+
                         <hr class="star-primary">
+
                         <img src="img/portfolio/prduct1.jpg" class="img-responsive img-centered" alt="">
-                        <h3><?= $item->price ?></h3>
+
+                        <h3><?= $item->price ?>$</h3>
 
                         <p>
                             <?= $item->content ?>
                         </p>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
 
+                        <label class="page-scroll">
+                            <a class="btn btn-lg btn-success" href="#contact" data-dismiss="modal" >Заказать</a>
+                        </label>
                     </div>
                 </div>
             </div>
