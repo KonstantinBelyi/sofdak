@@ -457,3 +457,8 @@ footer .footer-below {
     color: #fff;
     background: #2c3e50;
 }
+
+.site-error{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
