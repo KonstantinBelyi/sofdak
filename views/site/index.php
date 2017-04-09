@@ -107,6 +107,10 @@
                     Лица, имеющие половые контакты со многими партнерами
                     Лица, имеющие половые контакты с одним инфицированным партнером
                 </p>
+
+                <p>
+                    <iframe src="https://www.youtube.com/embed/_8I3fDfeyw4?rel=0" width="640" height="360" frameborder="15" class="center-block" allowfullscreen></iframe>
+                </p>
             </div>
         </div>
     </div>
@@ -195,18 +199,22 @@
                 <div class="footer-col col-md-12">
                     <!--                    <h3>Around the Web</h3>-->
                     <ul class="list-inline">
-                        <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                        <li>
+                            <a href="https://www.facebook.com/groups/478286995835650" target="_blank" class="btn-social btn-outline">
+                                <i class="fa fa-fw fa-facebook"></i>
+                            </a>
                         </li>
-                        <li><a href="https://vk.com/club139203360" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-vk"></i></a>
+                        <li>
+                            <a href="https://vk.com/club139203360" target="_blank" class="btn-social btn-outline">
+                                <i class="fa fa-fw fa-vk"></i>
+                            </a>
                         </li>
-                        <!--                        <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>-->
-                        <!--                        </li>-->
-                        <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                        <li>
+                            <a href="https://ok.ru/group/54415510863980" target="_blank" class="btn-social btn-outline">
+                                <i class="fa fa-fw fa-odnoklassniki"></i>
+                            </a>
                         </li>
-                        <!--                        <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>-->
-                        <!--                        </li>-->
-                        <!--                        <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>-->
-                        <!--                        </li>-->
+
                     </ul>
                 </div>
             </div>
