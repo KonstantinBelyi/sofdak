@@ -41,8 +41,9 @@ LtIeAppAsset::register($this);
             <a class="navbar-brand" href="#page-top">Sof-dak</a>
 
             <p id="contacts">
-                E-mail: test@test.ru<br>
-                Телефон: +38 095-334-23-12
+                test@test.ru <br>
+                +38 096-828-78-17 <br>
+                +38 066-236-44-53
             </p>
         </div>
 

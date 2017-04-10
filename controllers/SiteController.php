@@ -4,6 +4,7 @@ namespace app\controllers;
 
 use Yii;
 use app\models\Product;
+use app\models\ContentSite;
 
 class SiteController extends AppController
 {
@@ -26,10 +27,11 @@ class SiteController extends AppController
             $description .= $product[$key]['description'];
         }
 
+        $about = ContentSite::find()->all();
 
         $this->setMeta('Гепатит С/Софосбувир + Даклатасвир/Украина/Киев' , $keywords, $description);
 
-        return $this->render('index', compact('product'));
+        return $this->render('index', compact('product', 'about'));
     }
 
 //    /*
