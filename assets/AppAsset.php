@@ -25,15 +25,15 @@ class AppAsset extends AssetBundle
         'http://fonts.googleapis.com/css?family=Montserrat:400,700',
     ];
     public $js = [
-        'js/jquery-1.10.2.js',
-        'js/bootstrap.min.js',
+        //'js/jquery-1.10.2.js',
+        //'js/bootstrap.min.js',
         'http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js',
         'js/classie.js',
         'js/cbpAnimatedHeader.js',
         'js/freelancer.js',
     ];
     public $depends = [
-//        'yii\web\YiiAsset',
-//        'yii\bootstrap\BootstrapAsset',
+        'yii\web\YiiAsset',
+        'yii\bootstrap\BootstrapPluginAsset',
     ];
 }

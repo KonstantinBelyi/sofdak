@@ -1,10 +1,13 @@
 <?php
 
 /* @var $this yii\web\View
- * @var $product app\controllers\SiteController
- * @var $about app\controllers\SiteController
+ * @var $product app\models\Product
+ * @var $about app\models\ContentSite
+ * @var $contact app\models\Contact
  */
 
+use yii\bootstrap\ActiveForm;
+use yii\helpers\Html;
 ?>
 
 <header>
@@ -115,38 +118,73 @@
         </div>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <form role="form">
+
+                <?php $form =  ActiveForm::begin() ?>
+
                     <div class="row">
                         <div class="form-group col-xs-12 floating-label-form-group">
-                            <label for="name">Имя</label>
-                            <input class="form-control" type="text" name="name" placeholder="Ваше имя">
+                            <?= $form->field($contact, 'name')->textInput(['placeholder' => 'Ваше имя']) ?>
                         </div>
                     </div>
+
                     <div class="row">
                         <div class="form-group col-xs-12 floating-label-form-group">
-                            <label for="email">E-mail</label>
-                            <input class="form-control" type="email" name="email" placeholder="Ваш E-mail">
+                            <?= $form->field($contact, 'email')->textInput(['placeholder' => 'Ваш E-mail']) ?>
                         </div>
                     </div>
+
                     <div class="row">
                         <div class="form-group col-xs-12 floating-label-form-group">
-                            <label for="tel">Телефон</label>
-                            <input class="form-control" type="text" name="tel" placeholder="Ваш телефон">
+                            <?= $form->field($contact, 'phone')->textInput(['placeholder' => 'Ваш телефон']) ?>
                         </div>
                     </div>
+
                     <div class="row">
                         <div class="form-group col-xs-12 floating-label-form-group">
-                            <label for="message">Сообщение</label>
-                            <textarea placeholder="Введите сообщение" class="form-control" rows="5"></textarea>
+                            <?= $form->field($contact, 'message')->textarea(['rows' => '3', 'placeholder' => 'Введите сообщение']) ?>
                         </div>
                     </div>
-                    <br>
+
                     <div class="row">
                         <div class="form-group col-xs-12">
-                            <button type="submit" class="btn btn-lg btn-success">Отправить</button>
+                            <?= Html::submitButton('Отправить', ['class' => 'btn btn-lg btn-success']) ?>
                         </div>
                     </div>
-                </form>
+
+                <?php ActiveForm::end() ?>
+
+                    <!--                <form role="form">-->
+<!--                    <div class="row">-->
+<!--                        <div class="form-group col-xs-12 floating-label-form-group">-->
+<!--                            <label for="name">Имя</label>-->
+<!--                            <input class="form-control" type="text" name="name" placeholder="Ваше имя">-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="row">-->
+<!--                        <div class="form-group col-xs-12 floating-label-form-group">-->
+<!--                            <label for="email">E-mail</label>-->
+<!--                            <input class="form-control" type="email" name="email" placeholder="Ваш E-mail">-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="row">-->
+<!--                        <div class="form-group col-xs-12 floating-label-form-group">-->
+<!--                            <label for="tel">Телефон</label>-->
+<!--                            <input class="form-control" type="text" name="tel" placeholder="Ваш телефон">-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="row">-->
+<!--                        <div class="form-group col-xs-12 floating-label-form-group">-->
+<!--                            <label for="message">Сообщение</label>-->
+<!--                            <textarea placeholder="Введите сообщение" class="form-control" rows="5"></textarea>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <br>-->
+<!--                    <div class="row">-->
+<!--                        <div class="form-group col-xs-12">-->
+<!--                            <button type="submit" class="btn btn-lg btn-success">Отправить</button>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </form>-->
             </div>
         </div>
     </div>

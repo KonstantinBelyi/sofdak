@@ -43,6 +43,9 @@ $config = [
 
         'urlManager' => require (__DIR__ . '/urlManager.php'),
 
+        'assetManager' => [
+            'appendTimestamp' => true,
+        ],
     ],
     'params' => $params,
 ];

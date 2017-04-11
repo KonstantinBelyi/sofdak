@@ -5,6 +5,7 @@ namespace app\controllers;
 use Yii;
 use app\models\Product;
 use app\models\ContentSite;
+use app\models\Contact;
 
 class SiteController extends AppController
 {
@@ -29,9 +30,16 @@ class SiteController extends AppController
 
         $about = ContentSite::find()->all();
 
+        $contact = new Contact();
+
+        if ($contact->load(Yii::$app->request->post()))
+        {
+            $contact->save();
+        }
+
         $this->setMeta('Гепатит С/Софосбувир + Даклатасвир/Украина/Киев' , $keywords, $description);
 
-        return $this->render('index', compact('product', 'about'));
+        return $this->render('index', compact('product', 'about', 'contact'));
     }
 
 //    /*
