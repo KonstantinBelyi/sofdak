@@ -34,30 +34,16 @@ class SiteController extends AppController
 
         if ($contact->load(Yii::$app->request->post()))
         {
-            $contact->save();
+            if ($contact->save())
+            {
+                $contact->sendMail(Yii::$app->params['adminEmail'], $contact);
+
+                return $this->refresh();
+            }
         }
 
         $this->setMeta('Гепатит С/Софосбувир + Даклатасвир/Украина/Киев' , $keywords, $description);
 
         return $this->render('index', compact('product', 'about', 'contact'));
     }
-
-//    /*
-//     * Displays contact page.
-//     *
-//     * @return string
-//     */
-//    public function actionContact()
-//    {
-//        $model = new ContactForm();
-//        if ($model->load(Yii::$app->request->post()) && $model->contact(Yii::$app->params['adminEmail'])) {
-//            Yii::$app->session->setFlash('contactFormSubmitted');
-//
-//            return $this->refresh();
-//        }
-//        return $this->render('contact', [
-//            'model' => $model,
-//        ]);
-//    }
-
 }

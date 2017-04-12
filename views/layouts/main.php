@@ -41,7 +41,7 @@ LtIeAppAsset::register($this);
             <a class="navbar-brand" href="#page-top">Sof-dak</a>
 
             <p id="contacts">
-                test@test.ru <br>
+                <?= Yii::$app->params['adminEmail']?> <br>
                 +38 096-828-78-17 <br>
                 +38 066-236-44-53
             </p>

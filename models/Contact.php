@@ -71,4 +71,15 @@ class Contact extends ActiveRecord
             ],
         ];
     }
+
+    //отправка заказа на почту
+    public function sendMail( $email, $model)
+    {
+        Yii::$app->mailer
+            ->compose('contactMailer', ['model' => $model])
+            ->setFrom([Yii::$app->params['supportEmail'] => Yii::$app->params['nameSite'] . ' робот'])
+            ->setTo($email)
+            ->setSubject('Заказ №' . $this->id)
+            ->send();
+    }
 }

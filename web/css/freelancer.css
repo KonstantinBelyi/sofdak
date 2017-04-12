@@ -440,8 +440,16 @@ footer .footer-below {
 /*************************************************************/
 #contacts{
     color: white;
-    width: 275px;
+    width: 285px;
     margin-bottom: inherit;
+}
+
+@media(max-width:768px){
+    #contacts{
+        font-size: 10px;
+        padding-top: 10px;
+        width: 270px;
+    }
 }
 
 #hepatitis{
