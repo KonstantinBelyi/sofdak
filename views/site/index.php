@@ -47,6 +47,10 @@ use yii\helpers\Html;
                 foreach ($product as $item):
             ?>
 
+            <?php
+                $img = $item->getImage();
+            ?>
+
             <div class="col-sm-4 product-item">
                 <a href="<?= '#modal' . $item->id ?>" class="product-link" data-toggle="modal">
                     <div class="caption">
@@ -54,7 +58,8 @@ use yii\helpers\Html;
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="img/portfolio/prduct1.jpg" class="img-responsive" alt="" />
+
+                    <?= Html::img($img->getUrl('360x400'), ['alt' => $item->name]) ?>
                 </a>
             </div>
 
@@ -80,9 +85,6 @@ use yii\helpers\Html;
                     <?= $about[0]->about_hepatitis ?>
                 </p>
 
-                <p>
-                    <iframe src="https://www.youtube.com/embed/_8I3fDfeyw4?rel=0" width="640" height="360" frameborder="15" class="center-block" allowfullscreen></iframe>
-                </p>
             </div>
         </div>
     </div>
@@ -208,6 +210,10 @@ use yii\helpers\Html;
     foreach ($product as $item):
 ?>
 
+<?php
+    $img = $item->getImage();
+?>
+
 <div class="portfolio-modal modal fade" id="<?= 'modal' . $item->id ?>" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -225,7 +231,7 @@ use yii\helpers\Html;
 
                         <hr class="star-primary">
 
-                        <img src="img/portfolio/prduct1.jpg" class="img-responsive img-centered" alt="">
+                        <?= Html::img($img->getUrl('360x400'), ['alt' => $item->name]) ?>
 
                         <h3><?= $item->price ?>$</h3>
 
