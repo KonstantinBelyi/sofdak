@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'adminEmail' => 'kos.bel2@gmail.com',
-    'nameSite' => 'sof_dak.com',
-    'supportEmail' => 'testbk.testbk@bk.ru',
+    'adminEmail' => 'sof.dak.ua@gmail.com',
+    'nameSite' => 'sof-dak.com',
+    'supportEmail' => 'sof.dak.ua@mail.ru',
 ];

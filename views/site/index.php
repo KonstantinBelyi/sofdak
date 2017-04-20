@@ -26,6 +26,25 @@ use yii\helpers\Html;
                     <a class="btn btn-lg btn-success" href="#contact" >Заказать</a>
                 </label>
 
+                <ul class="list-inline">
+                    <li>
+                        <a href="https://www.facebook.com/groups/478286995835650" target="_blank" class="btn-social btn-outline">
+                            <i class="fa fa-fw fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://vk.com/club139203360" target="_blank" class="btn-social btn-outline">
+                            <i class="fa fa-fw fa-vk"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://ok.ru/group/54415510863980" target="_blank" class="btn-social btn-outline">
+                            <i class="fa fa-fw fa-odnoklassniki"></i>
+                        </a>
+                    </li>
+
+                </ul>
+
             </div>
 
             <div class="col-sm-6">
@@ -51,7 +70,7 @@ use yii\helpers\Html;
                 $img = $item->getImage();
             ?>
 
-            <div class="col-sm-4 product-item">
+            <div class="col-sm-4 product-item text-center ">
                 <a href="<?= '#modal' . $item->id ?>" class="product-link" data-toggle="modal">
                     <div class="caption">
                         <div class="caption-content">
@@ -59,7 +78,17 @@ use yii\helpers\Html;
                         </div>
                     </div>
 
-                    <?= Html::img($img->getUrl('360x400'), ['alt' => $item->name]) ?>
+                    <?= Html::img($img->getUrl('360x360'), ['alt' => $item->name, 'class' => 'img-responsive']) ?>
+
+                </a>
+
+                <p>
+                    <?= $item->name ?>
+                </p>
+
+                <a href="<?= '#modal' . $item->id ?>" class="product-link" data-toggle="modal">
+                    <?= Html::submitButton('Описание товара', ['class' => 'btn btn-lg btn-success', 'style' => ['width' => '250px', 'border-radius' => '10px']])?>
+<!--                    'width' => '100%',-->
                 </a>
             </div>
 
@@ -197,7 +226,7 @@ use yii\helpers\Html;
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    Copyright &copy; 2014 - Your Name
+                    &copy; My Company <?= date('Y') ?>
                 </div>
             </div>
         </div>
@@ -229,9 +258,7 @@ use yii\helpers\Html;
 
                         <h2><?= $item->name ?></h2>
 
-                        <hr class="star-primary">
-
-                        <?= Html::img($img->getUrl('360x400'), ['alt' => $item->name]) ?>
+                        <?= Html::img($img->getUrl('360x400'), ['alt' => $item->name, 'class' => 'img-responsive']) ?>
 
                         <h3><?= $item->price ?>$</h3>
 

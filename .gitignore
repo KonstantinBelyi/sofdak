@@ -6,6 +6,8 @@ nbproject
 
 web/upload
 
+config/
+
 # zend studio for eclipse project files
 .buildpath
 .project
