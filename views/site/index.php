@@ -258,7 +258,9 @@ use yii\helpers\Html;
 
                         <h2><?= $item->name ?></h2>
 
-                        <?= Html::img($img->getUrl('360x400'), ['alt' => $item->name, 'class' => 'img-responsive']) ?>
+                        <div class="caption col-lg-6 col-lg-offset-3" style="float: inherit">
+                            <?= Html::img($img->getUrl('360x360'), ['alt' => $item->name, 'class' => 'img-responsive']) ?>
+                        </div>
 
                         <h3><?= $item->price ?>$</h3>
 
