@@ -28,6 +28,12 @@ mihaildev\elfinder\Assets::noConflict($this);
     ]);
     ?>
 
+    <?php
+    echo $form->field($model, 'delivery')->widget(CKEditor::className(), [
+        'editorOptions' => ElFinder::ckeditorOptions('elfinder',[]),
+    ]);
+    ?>
+
     <div class="form-group">
         <?= Html::submitButton('Обновить', ['class' => 'btn btn-primary']) ?>
     </div>

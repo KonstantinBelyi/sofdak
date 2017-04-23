@@ -10,6 +10,7 @@ use yii\db\ActiveRecord;
  *
  * @property string $about_hepatitis
  * @property string $about_us
+ * @property string $delivery
  */
 class ContentSite extends ActiveRecord
 {
@@ -27,7 +28,7 @@ class ContentSite extends ActiveRecord
     public function rules()
     {
         return [
-            [['about_hepatitis', 'about_us'], 'string'],
+            [['about_hepatitis', 'about_us', 'delivery'], 'string'],
         ];
     }
 
@@ -39,6 +40,7 @@ class ContentSite extends ActiveRecord
         return [
             'about_hepatitis' => 'Раздел "Что нужно знать"',
             'about_us' => 'Раздел "О нас"',
+            'delivery' => 'Доставка',
         ];
     }
 }

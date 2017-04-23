@@ -139,6 +139,26 @@ use yii\helpers\Html;
     </div>
 </section>
 
+<section id="delivery"> <!--class="success" -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Доставка</h2>
+                <!--                <hr class="star-light">-->
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-lg-12">
+                <p>
+                    <?= $about[0]->delivery ?>
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
 <section id="contact">
     <div class="container">
         <div class="row">

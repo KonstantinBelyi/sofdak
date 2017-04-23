@@ -23,6 +23,7 @@ $this->params['breadcrumbs'][] = $this->title;
 //            'id',
             'about_hepatitis:html',
             'about_us:html',
+            'delivery:html',
         ],
     ]) ?>
 

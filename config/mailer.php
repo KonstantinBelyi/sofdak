@@ -9,8 +9,8 @@ return [
     'transport' => [
         'class' => 'Swift_SmtpTransport',
         'host' => 'smtp.mail.ru',
-        'username' => 'sof.dak.ua@mail.ru',
-        'password' => 'asdfghjkl1983',
+        'username' => 'testbk.testbk@bk.ru',
+        'password' => 'rjcnz123',
         'port' => '465',
         'encryption' => 'ssl',
     ],

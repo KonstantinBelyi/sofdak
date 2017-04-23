@@ -20,6 +20,7 @@ LtIeAppAsset::register($this);
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <?= Html::csrfMetaTags() ?>
+    <?php $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/png', 'href' => '/web/icon2.jpg'])?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
 
@@ -61,6 +62,9 @@ LtIeAppAsset::register($this);
                 </li>
                 <li class="page-scroll">
                     <a href="#about">О нас</a>
+                </li>
+                <li class="page-scroll">
+                    <a href="#delivery">Доставка</a>
                 </li>
                 <li class="page-scroll">
                     <a href="#contact">Контакты</a>

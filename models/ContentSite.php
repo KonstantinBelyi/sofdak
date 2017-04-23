@@ -9,6 +9,7 @@ use Yii;
  *
  * @property string $about_hepatitis
  * @property string $about_us
+ * @property string $delivery
  */
 class ContentSite extends \yii\db\ActiveRecord
 {
@@ -26,7 +27,7 @@ class ContentSite extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['about_hepatitis', 'about_us'], 'string'],
+            [['about_hepatitis', 'about_us', 'delivery'], 'string'],
         ];
     }
 

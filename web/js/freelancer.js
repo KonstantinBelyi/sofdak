@@ -24,3 +24,18 @@ $(function() {
 $('body').scrollspy({
     target: '.navbar-fixed-top'
 });
+
+// $(document).ready(function () {
+//     $('#submit-btn').click(function () {
+//         var params = $('input, textarea').not("input[type='submit']").serializeArray();
+//
+//         $.ajax({
+//             url: '/site/index',
+//             method: 'POST',
+//             data: {text: params},
+//             success: function(data) {
+//                 alert(data);
+//             }
+//         });
+//     });
+// });
